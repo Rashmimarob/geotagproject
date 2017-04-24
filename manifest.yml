@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: geotagproject
+  host: geotagproject
+  disk_quota: 1024M
+  services:
+  - ClearDB-2sd14cs088
+  - ClearDB-088
